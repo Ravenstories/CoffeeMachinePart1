@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoffeeMachinePart1
+namespace CoffeeMachinePart2
 {
+    // Container for the water. (I made it and never looked at it again. I might have done something right)
     public class WaterContainer
     {
-        private int waterInTank = 0;
-        private int maxWater = 10;
+        private int waterInTank;
+        private int maxWater;
         public int WaterInTank
         {
             get { return waterInTank; }

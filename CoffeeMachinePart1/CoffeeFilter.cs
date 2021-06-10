@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoffeeMachinePart1
+namespace CoffeeMachinePart2
 {
+    // Container for the coffee. (I made it and never looked at it again. I might have done something right)
     public class CoffeeFilter
     {
         private bool isUsed;
         private int coffeeIn;
         private int maxCoffeeIn;
-
 
         public bool IsUsed
         {
@@ -28,7 +28,6 @@ namespace CoffeeMachinePart1
             get { return maxCoffeeIn; }
             set { maxCoffeeIn = value; }
         }
-
 
         public CoffeeFilter(bool isUsed, int coffeeIn, int maxCoffeeIn)
         {

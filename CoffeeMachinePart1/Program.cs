@@ -1,21 +1,15 @@
 ﻿using System;
 
-namespace CoffeeMachinePart1
+namespace CoffeeMachinePart2
 {
     public class Program
     {
-        public static int numberOfCups;
-
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World! \n");
 
-            
+            CoffeeMachineManager.StartCoffeeMachine();
 
-            CoffeeMachineManager coffeeMachine = new CoffeeMachineManager();
-            coffeeMachine.StartCoffeeMachine();
-
-            Console.ReadKey();
         }
     }
 }
